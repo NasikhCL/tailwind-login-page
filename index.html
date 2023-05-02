@@ -11,31 +11,41 @@
 <body class="font-mono">
     <div class="h-screen flex">
         <!-- hero image -->
-        <img class="hidden md:block w-1/2 h-full" src="https://images.pexels.com/photos/8607992/pexels-photo-8607992.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" srcset="">
+        <img class="hidden lg:block w-1/2 bg-cover" src="https://img.freepik.com/free-photo/superfood-background-with-green-vegetables_53876-106104.jpg?w=826&t=st=1683029587~exp=1683030187~hmac=8d6f38ac6002119be48b7bdd8e625d490e0a98ca60f3af2ace90ab7b644589a9" alt="" srcset="">
         
         <!-- login section -->
-        <div class="w-full pl-8 flex flex-col justify-center sm:w-1/2 sm:pl-12 "> 
-            <div class="text-xl font-bold">
-                <span class="text-green-600">&#9650;</span>
-                <span>FarmMan</span>
-            </div>
+        <div class="flex flex-col justify-center items-center border w-full lg:w-1/2"> 
+            <div>
 
-            <div class="mt-10 font-bold text-3xl">
-               <h2>Hello,</h2> 
-               <h2>Welcome Back</h2>
-            </div>
+                <div class="text-xl font-bold w-fit mx-auto lg:mx-0 ">
+                    <span class="text-green-600">&#9650;</span>
+                    <span>FarmMan</span>
+                </div>
 
-            <!-- login form -->
-            <form class="mt-8 w-[90%] sm:w-[80%]">
-                <h4>Login to manage your account.</h4>
-                <input class="border w-full px-4 py-2 my-2" type="email" placeholder="Email" >
-                <input class="border w-full px-4 py-2 my-2" type="password" placeholder="Password" >
-                <div class="text-blue-600 hover:text-blue-400 cursor-pointer">Forgot your password?</div>
-                <button class="w-full mt-2 bg-green-600 py-2 rounded text-white font-bold hover:bg-green-500">Login</button>
-                <div class="mt-2 text-sm text-blue-600 hover:text-blue-400 cursor-pointer">dont have an account?Sign Up here</div>
-            </form> 
-            
-        
+                <div class="mt-10 font-bold text-3xl w-fit mx-auto lg:mx-0">
+                    <h2>Hello,</h2> 
+                    <h2>Welcome Back</h2>
+                </div>
+ 
+                <!-- login form -->
+                <form class="mt-8 w-[80%] lg:w-96 mx-auto">
+                    <h4>Login to manage your account.</h4>
+                    <input class="border w-full px-4 py-2 my-2" type="email" placeholder="Email" >
+                    <input class="border w-full px-4 py-2 my-2" type="password" placeholder="Password" >
+                    <div class="text-blue-600 hover:text-blue-400 cursor-pointer">Forgot your password?</div>
+                    <button class="w-full mt-2 bg-green-600 py-2 rounded text-white font-bold hover:bg-green-500">Login</button>
+                </form>       
+                <div class="text-center mt-4">
+                    <span>or</span>
+                    <div class="flex justify-evenly mt-4">  
+                        <img src="https://img.icons8.com/ios/40/null/facebook-new.png"/>
+                        <img src="https://img.icons8.com/ios/35/null/google-logo--v1.png"/>
+                        <img src="https://img.icons8.com/ios/36/null/instagram-new--v1.png"/>
+                    
+                    </div>
+                </div>
+                <div class="mt-4 text-sm text-blue-600 hover:text-blue-400 cursor-pointer text-center ">dont have an account?Sign Up here</div>
+            </div>
         </div>
     </div>
 </body>
