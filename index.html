@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>beginner</title>
+</head>
+<body class="font-mono">
+    <div class="h-screen flex">
+        <!-- hero image -->
+        <img class="hidden md:block w-1/2 h-full" src="https://images.pexels.com/photos/8607992/pexels-photo-8607992.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" srcset="">
+        
+        <!-- login section -->
+        <div class="w-full pl-8 flex flex-col justify-center sm:w-1/2 sm:pl-12 "> 
+            <div class="text-xl font-bold">
+                <span class="text-green-600">&#9650;</span>
+                <span>FarmMan</span>
+            </div>
+
+            <div class="mt-10 font-bold text-3xl">
+               <h2>Hello,</h2> 
+               <h2>Welcome Back</h2>
+            </div>
+
+            <!-- login form -->
+            <form class="mt-8 w-[90%] sm:w-[80%]">
+                <h4>Login to manage your account.</h4>
+                <input class="border w-full px-4 py-2 my-2" type="email" placeholder="Email" >
+                <input class="border w-full px-4 py-2 my-2" type="password" placeholder="Password" >
+                <div class="text-blue-600 hover:text-blue-400 cursor-pointer">Forgot your password?</div>
+                <button class="w-full mt-2 bg-green-600 py-2 rounded text-white font-bold hover:bg-green-500">Login</button>
+                <div class="mt-2 text-sm text-blue-600 hover:text-blue-400 cursor-pointer">dont have an account?Sign Up here</div>
+            </form> 
+            
+        
+        </div>
+    </div>
+</body>
+</html>
